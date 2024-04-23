@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handleliste</title>
+</head>
+<body>
+    <main>
+        <h1 id="header">Handleliste</h1>
+        <section>
+            <form id="addItemForm">
+                <input type="text" id="addItemText">
+                <button class="button" onclick="newItem()" id="addItemButton">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 20 20" height="20" fill="none" class="svg-icon"><g stroke-width="1.5" stroke-linecap="round" stroke="#de8a2a"><circle r="7.5" cy="10" cx="10"></circle><path d="m9.99998 7.5v5"></path><path d="m7.5 9.99998h5"></path></g></svg>
+                    <span class="lable">Legg til</span>
+                </button>
+            </form>
+        </section>
+
+        <section id="list-container">
+        </section>
+
+    </main>
+    <script src="script.js" />
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+</head>
+<body>
+  <main>
+    <h1 id="header">
+      Storlis kalkis
+    </h1>
+      
+    <section id="calculator">
+      <input type="text" value="" id="calculatorInput">
+      <div id="calculatorButtonContainer">
+        <button id="1" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >1</button> 
+        <button id="2" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >2</button> 
+        <button id="3" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >3</button> 
+        <button id="+" type="button" class="calculatorButtons" onclick="deleteLastCharacter()" >C</button> 
+        <button id="C" type="button" class="calculatorButtons" onclick="clearDisplay()" >CA</button> 
+        <button id="4" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >4</button> 
+        <button id="5" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >5</button> 
+        <button id="6" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >6</button> 
+        <button id="/" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >+</button> 
+        <button id="-" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >-</button> 
+        <button id="*" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >7</button> 
+        <button id="8" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >8</button> 
+        <button id="9" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >9</button> 
+        <button id="7" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >*</button> 
+        <button id="/" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >/</button> 
+        <button id="." type="button" class="calculatorButtons" onclick="addToDisplay(event)" >.</button> 
+        <button id="0" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >0</button> 
+        <button id="=" type="button" class="calculatorButtons" onclick="solveEquation()" >=</button> 
+        <button id="(" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >(</button> 
+        <button id=")" type="button" class="calculatorButtons" onclick="addToDisplay(event)" >)</button> 
+
+        </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
